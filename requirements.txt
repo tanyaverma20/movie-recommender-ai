@@ -1,0 +1,55 @@
+# ─────────────────────────────────────────────
+#  Movie Recommender AI – Requirements
+# ─────────────────────────────────────────────
+
+# Core
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+python-dotenv==1.0.1
+
+# Data & ML
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+scipy==1.13.0
+surprise==0.1          # scikit-surprise for SVD/SVD++/NMF
+
+# Deep Learning
+torch==2.3.0
+torchvision==0.18.0
+
+# NLP / Embeddings
+sentence-transformers==2.7.0
+transformers==4.41.0
+faiss-cpu==1.8.0        # Approximate Nearest Neighbor for RAG
+
+# LLM
+openai==1.30.1
+tiktoken==0.7.0
+
+# Caching / Async
+redis==5.0.4
+aioredis==2.0.1
+httpx==0.27.0
+
+# Evaluation
+mlflow==2.13.0          # Experiment tracking
+
+# Utils
+loguru==0.7.2
+rich==13.7.1
+tqdm==4.66.4
+joblib==1.4.2
+matplotlib==3.9.0
+seaborn==0.13.2
+plotly==5.22.0
+
+# Testing
+pytest==8.2.1
+pytest-asyncio==0.23.7
+httpx==0.27.0
+
+# Dev
+black==24.4.2
+isort==5.13.2
